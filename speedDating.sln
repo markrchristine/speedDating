@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "speedDatingDb", "speedDatingDb\speedDatingDb.sqlproj", "{0E28D9E5-5174-4D93-9311-8291F122A7E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeedDating.Web", "SpeedDating.Web\SpeedDating.Web.csproj", "{47317F9E-D74D-49FF-98C6-29FDAAE62890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedDating.Common", "SpeedDating.Common\SpeedDating.Common.csproj", "{4A6D9D66-4A24-4D33-98F1-86A94BCDC80B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedDating.Test", "SpeedDating.Test\SpeedDating.Test.csproj", "{E3455591-11D5-4733-A311-23FF29FBF1EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{521EF4DB-4109-4D61-AC7A-8128379879C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{16D04582-E2BF-421A-A6AA-EA03780F23A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E28D9E5-5174-4D93-9311-8291F122A7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E28D9E5-5174-4D93-9311-8291F122A7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E28D9E5-5174-4D93-9311-8291F122A7E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E28D9E5-5174-4D93-9311-8291F122A7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E28D9E5-5174-4D93-9311-8291F122A7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E28D9E5-5174-4D93-9311-8291F122A7E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{47317F9E-D74D-49FF-98C6-29FDAAE62890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47317F9E-D74D-49FF-98C6-29FDAAE62890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47317F9E-D74D-49FF-98C6-29FDAAE62890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47317F9E-D74D-49FF-98C6-29FDAAE62890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6D9D66-4A24-4D33-98F1-86A94BCDC80B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6D9D66-4A24-4D33-98F1-86A94BCDC80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6D9D66-4A24-4D33-98F1-86A94BCDC80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6D9D66-4A24-4D33-98F1-86A94BCDC80B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3455591-11D5-4733-A311-23FF29FBF1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3455591-11D5-4733-A311-23FF29FBF1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3455591-11D5-4733-A311-23FF29FBF1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3455591-11D5-4733-A311-23FF29FBF1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E28D9E5-5174-4D93-9311-8291F122A7E7} = {16D04582-E2BF-421A-A6AA-EA03780F23A3}
+		{E3455591-11D5-4733-A311-23FF29FBF1EC} = {521EF4DB-4109-4D61-AC7A-8128379879C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD1B113E-73E7-432E-A7B5-9DD884379E12}
+	EndGlobalSection
+EndGlobal
